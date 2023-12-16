@@ -1,0 +1,41 @@
+{
+  "recipes": [
+    {
+      "title": "Salmon Tacos",
+      "ingredients": [
+        "1. 12 ounces salmon filet (thawed if frozen)",
+        "2. 1 tsp brown sugar",
+        "3. ½ tsp paprika",
+        "4. ½ tsp garlic powder",
+        "5. ½ tsp kosher salt",
+        "6. ¼ tsp black pepper",
+        "7. 2 Tbsp olive oil, divided",
+        "8. 2 Tbsp hot honey, more as desired"
+      ],
+      "directions": [
+        "1. In a small bowl, mix brown sugar, paprika, garlic powder, salt, and pepper.",
+        "2. Remove skin from salmon filets and cut into 1½ pieces. Pat with paper towel to dry.",
+        "3. Rub with 1 tablespoon olive oil and coat with spice blend.",
+        "4. Heat 1 Tbsp olive oil in a large skillet over medium-high heat.",
+        "5. Once hot, add the salmon to the pan and cook for 2 minutes - do not move it.",
+        "6. Flip and continue to cook for another 2-3 minutes or until the internal temperature reaches 145ºF.",
+        "7. Add to a new bowl and toss with hot honey."
+      ],
+      "sub-recipe": {
+        "title": "Strawberry Pineapple Salsa",
+        "ingredients": [
+          "1. 1 pineapple",
+          "2. 1 lb strawberries",
+          "3. Juice of 2 limes",
+          "4. Bunch of cilantro",
+          "5. 1/2 red onion",
+          "6. 1-2 small tomatoes",
+          "7. Dash of salt"
+        ],
+        "directions": [
+          "1. Chop all ingredients and mix together in a large bowl."
+        ]
+      }
+    }
+  ]
+}
