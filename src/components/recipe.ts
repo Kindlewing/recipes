@@ -1,3 +1,2 @@
-class Recipe {}
 
-export { Recipe };
+export { Recipe }; 

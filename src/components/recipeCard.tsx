@@ -1,7 +1,12 @@
-const RecipeCard = ({ recipe: any }) => {
+interface Recipe {
+	title: string;
+	ingredients: string[];
+}
+
+const RecipeCard = ({ recipe: Recipe }) => {
 	return (
 		<article className="card">
-			<p className="title"> recipe.title </p>
+			<p className="title"> recipe.title</p>
 		</article>
 	);
 };
