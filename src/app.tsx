@@ -1,6 +1,6 @@
-import { Header } from "./components/header.tsx";
+import { Header } from "./views/components/header.tsx";
 import { Recipe } from "./recipe.ts";
-import RecipeCard from "./components/recipeCard.tsx";
+import RecipeCard from "./views/components/recipeCard.tsx";
 
 function App() {
 	const recipe: Recipe = {
