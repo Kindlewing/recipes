@@ -1,12 +1,9 @@
-interface Recipe {
-	title: string;
-	ingredients: string[];
-}
+import { Recipe } from "../recipe";
 
-const RecipeCard = ({ recipe: Recipe }) => {
+const RecipeCard = (recipe: Recipe) => {
 	return (
 		<article className="card">
-			<p className="title"> recipe.title</p>
+			<p className="title">{recipe.title}</p>
 		</article>
 	);
 };
