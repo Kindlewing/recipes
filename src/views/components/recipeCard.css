@@ -1,4 +1,14 @@
 .card {
-	width: 20ch;
+	width: 30ch;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+.ingredients {
 }

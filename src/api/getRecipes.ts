@@ -7,12 +7,20 @@ export const getAllRecipes = async () => {
 		id: 1,
 		title: "Test",
 		ingredients: ["1", "2"],
+		directions: [
+			"Combine all ingredients in a bowl",
+			"Bake at 475 degrees",
+		],
 	};
 
 	const rec2: Recipe = {
 		id: 2,
 		title: "Test2",
 		ingredients: ["1", "2"],
+		directions: [
+			"Combine all ingredients in a bowl",
+			"Bake at 475 degrees",
+		],
 	};
 
 	recipes.push(rec1);
