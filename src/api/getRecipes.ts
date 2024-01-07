@@ -1,5 +1,7 @@
+import { Recipe } from "../components/recipe";
+
 export const getAllRecipes = async () => {
-	const recipes: Recipe = [];
+	const recipes: Recipe[] = [];
 
 	const rec1: Recipe = {
 		id: 1,

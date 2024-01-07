@@ -1,4 +1,5 @@
 import { Recipe } from "../../components/recipe";
+import "./recipeCard.css";
 
 interface Props {
 	recipe: Recipe;
