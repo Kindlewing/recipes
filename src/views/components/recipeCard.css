@@ -10,5 +10,10 @@
 	font-size: 1.4rem;
 }
 
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
 .ingredients {
 }

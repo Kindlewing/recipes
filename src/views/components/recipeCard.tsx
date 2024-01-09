@@ -8,17 +8,21 @@ interface Props {
 const RecipeCard: React.FC<Props> = ({ recipe }) => {
 	return (
 		<article className="card">
-			<p className="title">{recipe.title}</p>
-			<ul className="ingredients">
-				{recipe.ingredients.map((entry) => {
-					return <li className="ingredient">{entry}</li>;
-				})}
-			</ul>
-			<ol className="directions">
-				{recipe.directions.map((entry) => {
-					return <li className="direction">{entry}</li>;
-				})}
-			</ol>
+			<header>
+				<p className="title">{recipe.title}</p>
+			</header>
+			<section className="content">
+				<ul className="ingredients">
+					{recipe.ingredients.map((entry) => {
+						return <li className="ingredient">{entry}</li>;
+					})}
+				</ul>
+				<ol className="directions">
+					{recipe.directions.map((entry) => {
+						return <li className="direction">{entry}</li>;
+					})}
+				</ol>
+			</section>
 		</article>
 	);
 };
